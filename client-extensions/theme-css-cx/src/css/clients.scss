@@ -1,0 +1,17 @@
+.clients {
+    padding: 40px 0;
+    background: var(--light);
+    .img-container {
+        .swiper-wrapper {
+            align-items: center;
+            .swiper-slide {
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 50%;
+                }
+            }
+        }
+        
+    }
+}

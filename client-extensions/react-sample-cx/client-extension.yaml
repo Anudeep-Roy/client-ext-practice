@@ -1,0 +1,15 @@
+assemble:
+  - from: build/static
+    into: static
+react-sample-cx:
+  cssURLs:
+    - css/main.*.css
+  friendlyURLMapping: react-sample-cx
+  htmlElementName: react-sample-cx
+  instanceable: false
+  name: react-sample-cx
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - js/main.*.js
+  useESM: true

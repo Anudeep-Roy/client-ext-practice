@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "client-extensions/react-sample-cx"
+        ]
+    },
+    "dependencies": {
+        "bootstrap-icons": "^1.11.3"
+    }
+}

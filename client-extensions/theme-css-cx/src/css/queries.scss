@@ -1,0 +1,25 @@
+.accordion {
+    .accordion-item {
+        margin: 0 0 20px;
+        position: relative;
+        margin-bottom: 20px;
+        box-shadow: 0px 2px 15px color-mix(in srgb, var(--dark), transparent 90%);
+        background-color: var(--light);
+        overflow: hidden;
+        .accordion-header {
+            button {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+                transition: 0.3s;
+                cursor: pointer;
+                color: var(--primary);
+                font-family: sans-serif;
+                &:not(.collapsed) {
+                    background: var(--white);
+                    color: var(--secondary);
+                }
+            }
+        }
+    }
+}
